@@ -1,0 +1,85 @@
+body {
+  background-color: #F8F0E5;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: #102C57;
+  font-size: 15;
+  line-height: 2.5
+}
+
+.container {
+  margin: 40px;
+}
+
+h1, h2{
+  font-family: 'Courier New', Courier, monospace;
+  color: #102C57;
+  font-weight: bold;
+}
+
+#round-pic {
+  width: 100px;
+  height:120px;
+  border-radius: 20px;
+  transition: all 0s ease-out;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#round-pic:hover {
+  border: 2px solid black;
+}
+
+a {
+  text-decoration: none;
+  color: #6a00f4;
+}
+
+#quote {
+  margin-top: 30px;
+  margin-bottom: 35px
+}
+
+#btn-fade {
+  width: 0 auto;
+  height: 50px;
+  place-content: center;
+  background-color: #102C57;
+  border: black 2px;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.73);
+  transition: all 1s ease-out;
+  padding: 15px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 32px
+}
+
+#btn-fade:hover {
+  background-color: #7209b7;
+}
+
+ul {
+  padding: 0
+}
+li {
+  display: inline;
+  font-size: 30px;
+  padding: 20px;
+}
+
+#github:hover {
+  color: #333;
+  transition: all 1s ease-out;
+}
+
+#insta:hover {
+  color: #ff0054;
+  transition: all 1s ease-out;
+}
+
+#linkedin:hover {
+  color: #0A66C2;
+  transition: all 1s ease-out;
+}
